@@ -1,0 +1,303 @@
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+/////    EstiloPanel
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+div.calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+.dropdown {
+  width: 100%; 
+}
+.element{
+width: 300px;
+
+}
+select {
+    background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 300px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+.lblfecha{
+            margin-right: 15px;
+}
+div.fechaDesde{
+    margin-top: 20px;
+}
+#botoneraFinal{
+    margin-top: 20px;
+}
+h3.sectores{
+      border: 1px solid black;
+       width: 100%;
+     text-align: center;
+      margin-top: 20px;
+     padding: 5px;
+   background: -webkit-linear-gradient(#0275d8, #0275d8);
+   background: -o-linear-gradient(#0275d8, #0275d8);
+   background: linear-gradient(#0275d8, #0275d8);
+     color:white;
+ } 
+.divColapsable{
+    display:  none;
+}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+/////    Estilo INHABILITACION
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+span.lblSector{
+    margin: 1%;
+}
+
+
+#txtSector{
+    width: 80%;
+}
+
+
+.colores{
+  margin:2%;
+}
+.sector {
+  width:  100%;
+}
+
+span.muestra{
+  margin:4%;
+  padding: 5%;
+  color:black;
+}
+
+
+.form-control{
+  margin-top:1%;
+}
+
+.form-control Desde{
+  width: 40%; 
+}
+
+.row {
+  margin:1%;
+}
+
+input:valid, textarea:valid {
+  background:#66ff66;
+}
+input:invalid, textarea:invalid {
+  /*background:#F08080*/;
+  border-style: solid;
+  box-shadow: 0 0 20px #F08080;   
+}
+
+.modal-header{
+  background-color: black;
+  color:white;
+  text-align: center;
+
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-----------------------------------------ESTILOS COMUNES
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+ 
+
+/*ENCABEZADO */
+img.logo{
+    height: 1%;
+     width: 15% ; 
+}
+h1{
+    padding-left: 30px;
+}
+/************************************************************* */
+/* Pie de pagina*/
+footer {
+        text-align: center;
+        font-family: sans-serif;
+        color: whitesmoke;
+        width: 100%;
+        bottom: 0;
+        position:fixed;
+        background-color: black;
+    }
+/************************************************************* */
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-----------------------------------------ESTILOS SECTORES
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2018, 15:14:29
+    Author     : Diosa
+*/
+
+span.lblSector{
+    margin: 1%;
+}
+
+
+#txtSector{
+    width: 100%;
+}
+
+div.Colorete{
+  margin:1%;
+}
+
+.colores{
+  margin:2%;
+}
+.sector {
+  width:  100%;
+}
+
+span.muestra{
+  margin:4%;
+  padding: 5%;
+  color:black;
+}
+
+
+.form-control{
+  margin-top:1%;
+}
+
+.form-control Desde{
+  width: 40%; 
+}
+
+.row {
+  margin:1%;
+}
+
+input:valid, textarea:valid {
+  background:#66ff66;
+}
+input:invalid, textarea:invalid {
+  /*background:#F08080*/;
+  border-style: solid;
+  box-shadow: 0 0 20px #F08080;   
+}
+
+.modal-header{
+  background-color: black;
+  color:white;
+  text-align: center;
+
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+ /*
+----------------------------------------------------------------------------------------------------------------------------------------------
+/////    ESTILOS TURNOS
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.aSignar {
+      border-width:  2px;
+      border-style: solid;
+      border-color: black;
+}
+.combito{
+    width: 80%;
+    margin-left: 5%;
+  } 
+
+.form-group {
+  width: 100%;  
+  
+}
+
+
+div.form-check{
+  margin-right: 1%;
+} 
+
+span.badge.badge-secondary.combo{
+  padding: 1%;
+  width:  20%;
+}
+
+span.badge.badge-secondary.bdDias{
+  padding-right: 2%;
+  margin-top: 2%;
+}
+
+span.badge.badge-secondary {
+  margin:1%;
+  margin-left: 1%;  
+}
+
+/*==================================================
+* Efecto Mensaje
+* ===============================================*/
+#mensaje
+{
+position: relative;
+width:70%;
+height:200px;
+background:#2187a2;
+margin:40px auto;
+
+}
+#mensaje:before
+{
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 15px;
+left: 10px;
+width: 50%;
+top: 80%;
+max-width:300px;
+background: #777;
+-webkit-box-shadow: 0 15px 10px #777;
+-moz-box-shadow: 0 15px 10px #777;
+box-shadow: 0 15px 10px #777;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/

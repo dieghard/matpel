@@ -1,0 +1,6 @@
+-Se agrego el campo guiaGRE - varchar (20) a la tabla matpel
+-Se cambio el archivo - modelos\matpelModel.php
+-Se cambio el archivo - vistas\panelModal.php
+-Se cambio el archivo - vistas\js\panel.js
+-Se cambio el archivo - vistas\ajax\ajaxMatpel.php
+
